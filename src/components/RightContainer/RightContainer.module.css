@@ -1,0 +1,12 @@
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.right-container__list-item {
+    font-size: 1.25rem;
+}

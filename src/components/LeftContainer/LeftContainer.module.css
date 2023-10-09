@@ -1,0 +1,13 @@
+.left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+.left-container__list-item {
+    font-size: 1.5rem;
+}

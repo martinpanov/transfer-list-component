@@ -33,7 +33,7 @@ html:focus-within {
 }
 
 /* Set core body defaults */
-body {
+body {    
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
@@ -73,4 +73,12 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 100vh;
 }

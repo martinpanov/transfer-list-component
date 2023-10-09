@@ -7,10 +7,10 @@ import { ListItemsContext } from './components/context/ListItemsContext';
 
 
 function App() {
-    const [leftContainerItems, setLeftContainerItems] = useState<number[]>([1, 2, 3, 4, 5]);
-    const [rightContainerItems, setRightContainerItems] = useState<number[]>([]);
-    const [leftSelectedItems, setLeftSelectedItems] = useState<number[]>([]);
-    const [rightSelectedItems, setRightSelectedItems] = useState<number[]>([]);
+    const [leftContainerItems, setLeftContainerItems] = useState<string[]>(['one', 'two', 'three', 'four', 'five']);
+    const [rightContainerItems, setRightContainerItems] = useState<string[]>([]);
+    const [leftSelectedItems, setLeftSelectedItems] = useState<string[]>([]);
+    const [rightSelectedItems, setRightSelectedItems] = useState<string[]>([]);
 
     return (
         <ListItemsContext.Provider value={{ leftSelectedItems, setLeftSelectedItems, rightSelectedItems, setRightSelectedItems, leftContainerItems, setLeftContainerItems, rightContainerItems, setRightContainerItems }}>

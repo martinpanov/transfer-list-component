@@ -1,0 +1,9 @@
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.buttons-container__button {
+    padding: 1rem;
+}

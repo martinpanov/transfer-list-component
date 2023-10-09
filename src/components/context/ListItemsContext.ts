@@ -1,14 +1,14 @@
 import { Dispatch, SetStateAction, createContext } from "react";
 
 interface ListItemsContextType {
-    leftSelectedItems: number[];
-    setLeftSelectedItems: Dispatch<SetStateAction<number[]>>;
-    rightSelectedItems: number[];
-    setRightSelectedItems: Dispatch<SetStateAction<number[]>>;
-    leftContainerItems: number[];
-    setLeftContainerItems: Dispatch<SetStateAction<number[]>>;
-    rightContainerItems: number[];
-    setRightContainerItems: Dispatch<SetStateAction<number[]>>;
+    leftSelectedItems: string[];
+    setLeftSelectedItems: Dispatch<SetStateAction<string[]>>;
+    rightSelectedItems: string[];
+    setRightSelectedItems: Dispatch<SetStateAction<string[]>>;
+    leftContainerItems: string[];
+    setLeftContainerItems: Dispatch<SetStateAction<string[]>>;
+    rightContainerItems: string[];
+    setRightContainerItems: Dispatch<SetStateAction<string[]>>;
 }
 
 export const ListItemsContext = createContext<ListItemsContextType>({
